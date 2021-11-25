@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 400;
+  src: url("../assets/fonts/pDxWAF1pBB0dzGB.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  font-style: italic;
+  src: url("../assets/fonts/WOnTLzkiaEccV7F.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  font-weight: 700;
+  src: url('../assets/fonts/KFPk-9IF4FqAqY-.woff2')
+      format("woff2"),;
+}
+
+.a-ember body {
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.a-ember .a-text-quote {
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
