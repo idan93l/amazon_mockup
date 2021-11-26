@@ -4,9 +4,9 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  font-family:'\f000';
+  max-width: 100%;
+  font-family: "Amazon Ember";
+  overflow-x: hidden;
 }
 
 ul {
@@ -15,4 +15,13 @@ ul {
 
 ul li a {
   text-decoration: none;
+}
+
+.mainNav p {
+  font-size: 12px;
+}
+
+.mainNav p span {
+  font-size: 14px;
+  font-weight: 700;
 }

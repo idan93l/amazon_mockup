@@ -1,0 +1,190 @@
+.mainNav {
+  max-width: 100% ;
+  height: 60px;
+  color: var(--white);
+}
+
+.mainNav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.hovered {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.hovered:hover {
+  border: 1px solid var(--white);
+  border-radius: 2px;
+}
+
+.logoNavBar {
+  background: url("../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat 0px -38px;
+  width: 96px;
+  height: 28px;
+}
+
+.navDelivery {
+  height: 28px;
+}
+
+.navDelivery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navDelivery p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .navNavigation p span {
+  font-size: 14px ;
+  font-weight: 700;
+} */
+
+.deliveryLogo {
+  background: url("../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -71px -379px;
+  width: 15px;
+  height: 17px;
+  margin-top: 9px;
+  margin-right: 3px;
+}
+
+.searchBar {
+  width: 1255px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px;
+  background-color: white;
+  color: rgb(73, 73, 73);
+}
+
+.searchMenu {
+  height: 100%;
+  width: 53px;
+  background-color: var(--lightGrey);
+  border-right: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px 0 0 4px;
+  font-size: 12px;
+}
+
+.searchMenu:hover {
+  background-color: var(--darkGrey);
+}
+
+.searchMenu p {
+  margin-right: 11px;
+}
+
+.searchMenu i {
+  margin-bottom: 6px;
+}
+
+.searchBar input {
+  height: 100%;
+  border: transparent;
+  flex: 1;
+}
+
+.searchLogo {
+  background: url("../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat 3px -280px;
+  background-color: var(--orangeSearch);
+  width: 46px;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.searchLogo:hover {
+  background-color: var(--orangeSearch-darker);
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 28px;
+}
+
+.countryLogo {
+  background: url("../assets/images/rzrQQdi0aRm6Dap.png") no-repeat 0 -128px;
+  width: 25px;
+  height: 19px;
+  margin-right: 3px;
+  margin-top: 6px;
+}
+
+.country i {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 28px;
+}
+
+.text p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 4px;
+}
+
+.text i {
+  margin-top: 13px;
+  font-size: 12px;
+}
+
+.cart {
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cartLogo {
+  background: url('../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -340px;
+	width: 38px;
+	height: 26px;
+}
+
+.cartLogo p {
+  margin-top: -4px;
+  margin-left: 19px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(194, 126, 1);
+}
+
+.cartWord {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 13px;
+}
