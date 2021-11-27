@@ -4,6 +4,15 @@
   color: var(--white);
 }
 
+.mainNav p {
+  font-size: 12px;
+}
+
+.mainNav p span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .mainNav ul {
   display: flex;
   justify-content: space-around;
@@ -90,6 +99,12 @@
   flex: 1;
 }
 
+.searchBar input:placeholder-shown{
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: "Amazon Ember";
+}
+
 .searchLogo {
   background: url("../assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
     no-repeat 3px -280px;
@@ -160,8 +175,8 @@
 }
 
 .cartLogo p {
-  margin-top: -4px;
-  margin-left: 19px;
+  margin-top: -6px;
+  margin-left: 17.5px;
   font-size: 16px;
   font-weight: 700;
   color: rgb(194, 126, 1);

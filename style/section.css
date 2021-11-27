@@ -16,7 +16,7 @@ section {
 .breadCrumbs {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   flex-direction: row;
   color: var(--dark);
   font-size: 12px;
@@ -32,7 +32,7 @@ section {
 }
 
 .innerContainer {
-  width: 1195px;
+  width: 1467px;
   height: 657px;
   display: flex;
   justify-content: flex-start;
@@ -50,14 +50,15 @@ section {
 }
 
 .verticalImages img {
-  border: 1px solid var(--dark);
+  border: 1px solid rgb(184, 184, 184);
   border-radius: 2px;
   margin: 4px 0 4px 0;
   cursor: pointer;
 }
 
 .verticalImages img:hover {
-  box-shadow: 0px 0px 3px 2px rgba(209, 118, 0, 0.746)}
+  box-shadow: 0px 0px 3px 2px rgba(245, 149, 24, 0.746);
+}
 
 .imgTextcontainer {
   display: flex;
@@ -65,6 +66,7 @@ section {
   align-items: center;
   flex-direction: column;
   margin-left: 4px;
+  margin-right: 22px;
 }
 
 .imgTextcontainer .image {
@@ -84,4 +86,253 @@ section {
 .imgTextcontainer p {
   margin-top: 21px;
   font-size: 14px;
+}
+
+.productInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 22px 0px 0 0;
+}
+
+.productInfo a {
+  font-size: 14px;
+}
+
+.productInfo p,
+li {
+  font-size: 14px;
+}
+
+.productInfo h1 {
+  font-weight: 500;
+  height: 31.5px;
+}
+
+.info1 {
+  width: 95.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.productRating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 1px;
+  margin-top: 3px;
+}
+
+.fiveStars {
+  background: url("../assets/images/3-fm1Jbg4IHlyhq.png") no-repeat -166px -36px;
+  width: 80px;
+  height: 15px;
+  margin-right: 8.5px;
+  margin-bottom: 3px;
+}
+
+.productRating i {
+  font-size: 8px;
+  margin-right: 22.5px;
+}
+
+.info2 {
+  width: 95.5%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.priceContainer {
+  margin-top: 10px;
+}
+
+.priceContainer h3 {
+  font-weight: 500;
+  color: var(--reddish);
+  margin: 3px 3px 0 6px;
+}
+
+.shipp {
+  margin-top: 5px;
+}
+
+.infoAndCategories {
+  margin-top: 17px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.categories li {
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.categoriesInfo {
+  margin-left: 10px;
+}
+
+.categoriesInfo li {
+  margin-bottom: 9px;
+}
+
+.seeLess {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.seeLess i {
+  font-size: 8px;
+  margin-right: 6px;
+}
+
+.seeLess a:hover {
+  color: rgb(90, 41, 8);
+  text-decoration: underline;
+}
+
+.info3 h4 {
+  margin-top: 15px;
+}
+
+.info3 ul {
+  list-style: disc;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+.info3 ul li {
+  margin-bottom: 2px;
+}
+
+.sideDeliveryInfo {
+  width: 670px;
+  height: 780;
+  /* border: 1px solid red; */
+}
+
+.sideDeliveryInfo p{
+  font-size: 14px;
+}
+
+.sideDeliveryInfo .box1 {
+  width: 100%;
+  height: 467px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1Container {
+  width: 85%;
+  height: 94%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.box1 h3 {
+  font-weight: 500;
+  color: var(--reddish);
+  font-size: 18px;
+}
+
+.p1 {
+  margin-top: 6px;
+}
+
+.p2 {
+  margin-top: 14px;
+}
+
+.p2 span {
+  font-weight: 600;
+}
+
+.deliverToIsrael {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-left: 3px;
+}
+
+.deliverToIsrael img {
+  height: 14px;
+  margin-right: 6px;
+}
+
+.deliverToIsrael a {
+  font-size: 12px;
+}
+
+.OrderSoon {
+  margin-top: 10px;
+}
+
+.OrderSoon span {
+  font-size: 18px;
+}
+
+.addToCart, .buyNow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 33px;
+  border-radius: 50px;
+}
+
+.addToCart p, .buyNow p {
+  font-size: 13px;
+}
+
+.addToCart {
+  background-color: var(--yellow);
+  margin-top: 17px;
+}
+
+.buyNow {
+  margin-top: 7px;
+  background-color: var(--cartOrange);
+}
+
+.secureTrans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.secureTrans img {
+height: 15px;
+margin-right: 13px;
+margin-bottom: 3px;
+}
+
+.p3, .p4 {
+  font-size: 1px;
 }

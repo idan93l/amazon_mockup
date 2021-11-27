@@ -29,6 +29,7 @@
 
 .navBar3 ul li a {
   color: var(--dark);
+  font-size: 12px;
 }
 
 .navBar3 ul li a:hover {
