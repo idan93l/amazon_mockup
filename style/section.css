@@ -303,6 +303,7 @@ li {
   width: 100%;
   height: 33px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .addToCart p, .buyNow p {
@@ -314,17 +315,25 @@ li {
   margin-top: 17px;
 }
 
+.addToCart:hover {
+  background-color: rgb(226, 203, 0);
+}
+
 .buyNow {
   margin-top: 7px;
   background-color: var(--cartOrange);
+}
+
+.buyNow:hover {
+  background-color: rgb(230, 150, 3);
 }
 
 .secureTrans {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .secureTrans img {
@@ -333,6 +342,33 @@ margin-right: 13px;
 margin-bottom: 3px;
 }
 
+.secureTrans {
+  font-size: 14px;
+}
+
+.secureTrans:hover {
+  color: var(--reddish);
+}
+
 .p3, .p4 {
-  font-size: 1px;
+  width: 76%;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.p3 p, .p4 p{
+  font-size: 12px;
+}
+
+.p3 {
+  margin-bottom: 5px;
+  margin-top: 13px;
+}
+
+.p4 a:hover {
+  color: var(--reddish);
+  text-decoration: underline;
 }
