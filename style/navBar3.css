@@ -1,0 +1,55 @@
+.navBar3 {
+  max-width: 100%;
+  height: 32px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.navBar3 ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--navBar2-blue);
+  width: 100%;
+  height: 100%;
+  background-color: var(--navBar3-white);
+  font-size: 12px;
+}
+
+.navBar3 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 11px 6px 11px;
+  margin-top: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.navBar3 ul li a {
+  color: var(--dark);
+}
+
+.navBar3 ul li a:hover {
+  color: var(--navBar3-orange);
+}
+
+.underHover:hover {
+  border-bottom: 2px solid var(--navBar3-orange);
+}
+
+.navBar3 ul .bolder {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.pointerDown {
+  margin-left: 2px;
+}
+
+.pointerDown i {
+  font-size: 10px;
+  color: rgb(168, 168, 168);
+  margin-bottom: 10px;
+}

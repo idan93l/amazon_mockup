@@ -13,8 +13,9 @@ ul {
   list-style: none;
 }
 
-ul li a {
+a {
   text-decoration: none;
+  color: var(--dark);
 }
 
 .mainNav p {
@@ -24,4 +25,15 @@ ul li a {
 .mainNav p span {
   font-size: 14px;
   font-weight: 700;
+}
+
+.hovered {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.hovered:hover {
+  border: 1px solid var(--white);
+  border-radius: 2px;
 }

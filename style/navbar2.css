@@ -4,6 +4,10 @@
   font-size: 14px;
 }
 
+.navBar2 .hovered {
+  padding: 5px 12px 5px 12px;
+}
+
 .navBar2 ul {
   display: flex;
   justify-content: flex-start;
@@ -15,6 +19,10 @@
   color: var(--white);
 }
 
+.navBar2 li {
+  margin: 0 1px 2px 1px;
+}
+
 .navBar2 ul li a {
   color: var(--white);
 }
@@ -24,8 +32,40 @@
   justify-content: flex-end;
   flex: 1;
   flex-wrap: wrap;
-  margin-right: 25px;
-  margin-bottom: 2px;
+}
+
+.blackFriday a {
+  margin-bottom: 3px;
+  margin-right: 10px;
   font-weight: 600;
   font-size: 14px;
+  
 }
+
+.burger-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.burger-menu p {
+  font-weight: 600;
+}
+
+.burger-lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.burger-lines div {
+  width: 17px;
+  border-bottom: 2px solid var(--white);
+  margin-bottom: 4px;
+}
+
+
